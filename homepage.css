@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+body {
+  background-color: #f1ecc3;
+  position: relative;
+}
+p {
+  font-family: "Noto Serif", serif;
+  position: absolute;
+  font-weight: normal;
+  font-size: 24px;
+  left: 150px;
+}
+a:visited,
+a:link {
+  text-decoration: none;
+  color: #000000;
+}
+a:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+/*CLASSES*/
+.inside {
+  position: absolute;
+  justify-content: center;
+  text-align: center;
+  width: 741px;
+  height: 81px;
+  left: 350px;
+  top: 230px;
+}
+.name {
+  font-family: "Bebas Neue", cursive;
+  font-weight: normal;
+  font-size: 96px;
+  line-height: 115px;
+  color: #000000;
+}
+.links {
+  font-family: "Noto Serif";
+  font-style: italic;
+  position: absolute;
+  height: 81px;
+  left: 300px;
+  top: 300px;
+  color: black;
+}
+
+.stud {
+  left: 250px;
+}
