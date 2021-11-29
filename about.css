@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+a:visited,
+a:link {
+  text-decoration: none;
+  color: #000000;
+}
+a:hover {
+  color: grey;
+  text-decoration: none;
+}
+body {
+  background-color: #f1ecc3;
+}
+i {
+  margin: 10px;
+}
+/*CLASSES*/
+.container-fluid {
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.name {
+  padding-top: 100px;
+}
+.inside p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  padding: 0 200px 50px 200px;
+}
+.links {
+  text-align: center;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  font-size: 19px;
+}
+.list-groups {
+  font-family: "Noto Serif";
+  font-style: italic;
+  display: inline-block;
+  color: black;
+}
+.fa-stopwatch:hover {
+  color: #7cb9e8;
+}
+.fa-smile:hover {
+  color: orange;
+}
+.fa-people-carry:hover {
+  color: green;
+}
+.fa-comments:hover {
+  color: #7cb9e8;
+}
+.fa-handshake-alt:hover {
+  color: #002d62;
+}
+.fa-html5:hover {
+  color: orange;
+}
+.fa-css3-alt:hover {
+  color: #2965f1;
+}
+.fa-figma:hover {
+  color: #663399;
+}

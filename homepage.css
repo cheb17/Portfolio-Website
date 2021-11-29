@@ -10,13 +10,7 @@ body {
   background-color: #f1ecc3;
   position: relative;
 }
-p {
-  font-family: "Noto Serif", serif;
-  position: absolute;
-  font-weight: normal;
-  font-size: 24px;
-  left: 150px;
-}
+
 a:visited,
 a:link {
   text-decoration: none;
@@ -28,14 +22,17 @@ a:hover {
 }
 
 /*CLASSES*/
-.inside {
-  position: absolute;
+.container-fluid {
+  align-content: center;
   justify-content: center;
-  text-align: center;
-  width: 741px;
-  height: 81px;
-  left: 350px;
-  top: 230px;
+  width: 1000px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.inside p {
+  font-family: "Noto Serif", serif;
 }
 .name {
   font-family: "Bebas Neue", cursive;
@@ -45,15 +42,14 @@ a:hover {
   color: #000000;
 }
 .links {
+  text-align: center;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  font-size: 19px;
+}
+.list-groups {
   font-family: "Noto Serif";
   font-style: italic;
-  position: absolute;
-  height: 81px;
-  left: 300px;
-  top: 300px;
+  display: inline-block;
   color: black;
-}
-
-.stud {
-  left: 250px;
 }
